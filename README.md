@@ -1,15 +1,9 @@
-# future-airlines-terraform-infrasturcture
+### future-airlines-terraform-infrasturcture
 
 cd components/jenkins-master
-# terraform init
 terraform init
-
-# terraform workspace list
-
-# terraform workspace select new <fttest1>
-
-# terraform workspace select fttest1
-  
-# terraform plan -var-file=../_TFVARS/fttest1.tfvars
-
-# terraform apply -var-file=../_TFVARS/fttest1.tfvars
+terraform workspace list
+terraform workspace select new <fttest1>
+terraform workspace select fttest1
+terraform plan -var-file=../_TFVARS/fttest1.tfvars
+terraform apply -var-file=../_TFVARS/fttest1.tfvars
