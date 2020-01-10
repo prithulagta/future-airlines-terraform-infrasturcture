@@ -1,5 +1,6 @@
 # future-airlines-terraform-infrasturcture
 
+cd components/jenkins-master
 # terraform init
 terraform init
 
